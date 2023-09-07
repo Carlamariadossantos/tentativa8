@@ -1,0 +1,66 @@
+:root {
+    --default-green: #1db954;
+    --light-green: #1ed760;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+
+
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("/img/showcase.webp") center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 5rem;
+}
+
+#showcase .showcase-container p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+.next-link {
+    display: inline-block;
+    padding: 20px 70px;
+    background-color:#41e27a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .next-link:hover {
+  background-color:#1db954;
+  text-decoration: underline;
+  }
+
